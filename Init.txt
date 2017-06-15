@@ -1,1 +1,7 @@
 	Initial data 
+1.0				X_max
+1.0				Z_max
+0				X_lq
+0.5				Z_lq
+100				Particle per meter
+1.0e-6			Time step
