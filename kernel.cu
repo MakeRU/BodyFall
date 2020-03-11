@@ -74,7 +74,7 @@ __device__ __host__ double dW(double r, double h)
 	if ((k >= 1.0) && (k <= 2.0)) {tmp1 = (double) -0.75 * (2.0-k)*(2.0-k);}
 	if (k > 2.0) {tmp1 = 0.0;}
 
-	return  c/(h*h) * tmp1;
+	return  c/(h*h*h) * tmp1;
 	}
 
 
